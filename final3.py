@@ -146,7 +146,7 @@ def game():
                 if matrix[o][p] != "":
                     count+=1
 
-        while True and (count < 16):
+        while count < 16:
             if matrix[i][j] != "":
                 j = random.randint(0,3)
                 i = random.randint(0,3)
